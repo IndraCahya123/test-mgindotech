@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.card-wrapper{
+  transition: all 1s ease-in-out;
+}
+
+.card-wrapper:hover{
+  transform: scale(1.1);
+}
